@@ -13,19 +13,8 @@
 
 <link rel="stylesheet" href="Prime.css">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
-</script>
 
-<script>
-     $(document).ready(function(){
-     $('#main a').hover(function(){
-	 
-     alert("please contact us for more information.");	
-	return false;	});
-	
-	});
 
-</script>
  
 </head>
 <body style = "background-color: #222222;"></body>
@@ -39,12 +28,18 @@
           <li><a href="listings.html">List of Guests</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="about.html">About</a></li>
+          <li>
+            <div class="banner">
+              <span>Current Time</span>
+            </div>
+            <div id="clock"></div>
+          </li>
         </ul>
     </nav>
     <h1>Party Invites</h1>
     
     </header>
-
+    <script src="./main.js"></script>
 <main> 
 <h2>Listings</h2>
 <h3> Orlando Floirda</h3>
@@ -64,33 +59,12 @@
 <td>4</td>
 <td>3</td>
 <td>Tow car garage</td>
-<td><a href="#" onmouseover=
-"alert('Please contact us for more information.');">#3432535</a></td>
+
 </tr>
 
 </table>
 <br class="clear">
-<h3> Libertyvill Condn</h3>
-<p> New construction condo in downtown Libertyville</p>
-<a  href="./images/libertyville.jpg">
-<img class="floatleft" src="./images/libertyvillethumb.jpg" alt="Smiley face" height="113" width="150"></a>
 
-<table>
-<tr>
-<th>Bedrooms</th>
-<th>Baths</th>
-<th>Garage</th>
-<th>Listing</th>
-</tr>
-<tr>
-<td>2</td>
-<td>2</td>
-<td>Tow indoor parking spaces</td>
-<td><a href="#" onmouseover=
-"alert('Please contact us for more information.');">#3432432</a></td>
-
-</tr>
-</table>
 
 </main>
 <footer class="clear">
