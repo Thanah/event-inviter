@@ -30,14 +30,44 @@ h1 {
 h2 {
    margin-left: 25px;
    color:#eefffc;
+   font-family: 'Work Sans', sans-serif;
 }
+h3 {
+   font-family: 'Work Sans', sans-serif;
+   color:#eefffc;
+}
+p {
+   font-family: 'Work Sans', sans-serif;
+   color:#eefffc;
+   margin-left: 55px;
+}
+
+b {
+   font-family: 'Work Sans', sans-serif;
+   color:#eefffc;
+   margin-left: 50px;
+}
+table {
+   font-family: 'Work Sans', sans-serif;
+   color:#eefffc;
+   text-align: center;
+}
+
 label {color:#eefffc;}
 	 
-footer{text-decoration: none; margin-left:180px;
-font-size: 0.60em; 
+footer{
+   text-decoration: none; 
+   margin-left:0px;
+   font-size: 0.60em; 
    clear: both;
-   color: #befff5;
-font-family: 'Work San';}
+   color: rgb(83, 83, 83);
+   font-family: 'Work Sans';
+   background-color: #66d4bc;
+   text-align: center;
+}
+footer p {
+   color: rgb(83, 83, 83);
+}
 
 nav {
    float: right;
@@ -79,7 +109,18 @@ nav div:hover{
 
 .contact{font-size:.90em;font-weight:bold;font-family:'Work Sans', sans-serif;}
 
-img { border: 0; }
+img {
+   border: 0;
+   margin-top: 10px;
+   margin-left: 50px;
+   width: 250px;
+}
+img.medium {
+   width: 250px;
+}
+img.large {
+   width: 500px;
+}
 
 dd{font-style: italic; font-size: 0.90em; color: #befff5;
 line-height: 200%;}
