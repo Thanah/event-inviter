@@ -1,17 +1,70 @@
-/*Ali Almalki*/
+/*Thanah Raveendran*/
+
+body {
+   margin: 0px;
+   margin-top: 0px;
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;;
+}
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
+header {
+   margin-top: 0px;
+   background: #66d4bc;
+}
 
 
-h1 {color:#eefffc;}
-h2 {color:#eefffc;}
+header::after {
+   content:'';
+   display: table;
+   clear: both; 
+}
+
+h1 {
+   margin-left: 25px;
+   padding-top: 20px;
+   color:#222222;
+}
+h2 {
+   margin-left: 25px;
+   color:#eefffc;
+}
 label {color:#eefffc;}
 	 
 footer{text-decoration: none; margin-left:180px;
 font-size: 0.60em; 
    clear: both;
    color: #befff5;
-font: italic;}
+font-family: 'Work San';}
 
-.contact{font-size:.90em;font-weight:bold;font-family:"Times New Roman",serif;}
+nav {
+   float: right;
+}
+
+nav ul {
+   margin: 0;
+   margin-right: 50px;
+   padding: 0;
+   list-style: none;
+}
+nav li{
+   display: inline-block;
+   margin-left: 70px;
+   padding-top: 35px;
+}
+
+nav a {
+   color: rgb(83, 83, 83);
+   text-decoration: none;
+   text-transform: uppercase;
+}
+nav a:hover{
+   color: #000;
+}
+
+.contact{font-size:.90em;font-weight:bold;font-family:'Work Sans', sans-serif;}
 
 img { border: 0; }
 
@@ -26,21 +79,13 @@ padding-right: 20px;}
 
 .floatright{float:right; padding: 0 2em 0 0 2em; padding-top: 1em;}
 
-#wrapper{ width:100%; 
-          margin-left:auto;
-	      margin-right:auto; 
-          min-width:700px;
-		  max-width:960px;
-          background-color:#2e2e2e;	  
-          padding: 0 0 20px 30px;
-		  border:1px  ridge #eefffc;
-          border-radius: 15px;
-          box-shadow:inset -1px -1px 3px 3px #eefffc;}
+
 		  
 table{ width: 80%; border:1px  #eefffc solid; border-collapse:collapse;}
 
-label{float:left; display:block; text-align:right;font-weight:bold;width:8em;padding-right:5px;}	
-input, textarea {display:block; margin-bottom:1em;}
+label{float:left; display:block; text-align:right;font-weight:bold;width:8em;padding-right:5px;}
+	
+input, textarea {display:block; margin-bottom:0.5em;}
 #mySubmit {margin-left:10em;}		  
 		  
 #Ali{ 
