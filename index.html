@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-<title>Party Invites</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<link rel="stylesheet" href="Prime.css">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <title>Party Invites</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Prime.css">
 
 
-</head>
- <body style = "background-color: #222222;">
+  </head>
+  <body style = "background-color: #222222;">
 
 
-<div id="wrapper">
-<nav>
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="listings.html">List of Guests</a></li>
-		<li><a href="financing.html">Gallery</a></li>
-		<li><a href="contact.html">About</a></li>
-	</ul>
-</nav>
-<h1>Prime Properties</h1>
-</header>
-<h2>Billing Address</h2>
-    <label>Your Name: </label><input type="text" name=" First name" required><br><br>
-	 
+  <div id="wrapper">
+  <header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="listings.html">List of Guests</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <h1>Party Invites</h1>
+  </header>
+
+  <h2>RSVP</h2>
+    <label>Your Name: </label><input type="text" name=" First name" required autofocus><br><br>
+    
     <label>Your Age:  </label><input type="text" name="Last name" required><br><br>
-	 
-    <label>Arrival Time: </label><input type="text" name="address" required><br><br>
-<label for="Parking"> Request Parking? </label>
-  <select>
-<option value=""></option>
- <option value="Yes">Yes</option>
-  <option value="No">No</option>
-</select>
+    
+    <label>Arrival Time: </label><input type="time" name="arrival_time" required><br><br>
+    <label for="Parking"> Request Parking? </label>
+      <select>
+      <option value=""></option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+      </select><br><br><br><br>
+    <button name="submit_button" type="submit" value="Submit"
+            style=" background-color: #66d4bc;
+                    color: #eefffc;
+                    font-size: 24px;
+                    font-family: 'Work Sans', sans-serif;
 
-<footer>
-<p>Copyright &copy; 2021 Party Invites<br><a href="mailto:cop4020@email.com">
-fake@email.com</a></p><script>
-    document.write("This page was the last modified on: data" + document.lastModified)
-</script>
+                    margin-left: 130px;">
+      Submit
+    </button>
+  <footer>
+  <p>Copyright &copy; 2021 Party Invites<br><a href="mailto:cop4020@email.com">
+  fake@email.com</a></p><script>
+      document.write("This page was the last modified on: data" + document.lastModified)
+  </script>
 
-</footer>
-</div>
-</body>
+  </footer>
+  </div>
+  </body>
 </html>
